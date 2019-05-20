@@ -5,8 +5,7 @@ def read_pets(filename):
             contents = file_object.read()
             print(contents)
     except FileNotFoundError:
-        message = "Sorry, the file " + filename + " was not found."
-        print(message)
+        pass
 
 # Store the lists into a variable
 filenames = ['text_files/cats.txt', 'text_files/dogs.txt']
