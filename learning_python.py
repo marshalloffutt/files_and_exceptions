@@ -21,3 +21,13 @@ with open(filename) as file_object:
 
 for line in lines:
     print(line.strip())
+
+print("\n")
+
+# Replace Python for C
+with open(filename) as file_object:
+    lines = file_object.readlines()
+
+for line in lines:
+    line = line.replace('Python', 'C')
+    print(line.rstrip())
