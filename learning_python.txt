@@ -1,0 +1,4 @@
+In Python you can create data types, variables and collections.
+In Python there are methods for looping.
+In Python you can use conditional statements.
+In Python you can take user input, and write functions.
