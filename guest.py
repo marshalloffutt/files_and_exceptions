@@ -1,5 +1,5 @@
 # Store file into a variable
-filename = 'guest.txt'
+filename = 'text_files/guest.txt'
 
 # Prompts the user for their name
 name = input("What is your name? ")

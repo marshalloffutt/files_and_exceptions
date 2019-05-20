@@ -1,4 +1,4 @@
-filename = 'guest_book.txt'
+filename = 'text_files/guest_book.txt'
 
 while True:
     name = input("What is your name? (press 'q' to quit)" + "\n")
