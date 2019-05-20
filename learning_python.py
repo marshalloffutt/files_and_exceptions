@@ -1,5 +1,5 @@
 # Store file into a variable
-filename = 'learning_python.txt'
+filename = 'text_files/learning_python.txt'
 
 # Read entire file
 with open(filename) as file_object:

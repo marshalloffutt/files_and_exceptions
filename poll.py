@@ -1,4 +1,4 @@
-filename = 'poll_responses.txt'
+filename = 'text_files/poll_responses.txt'
 
 while True:
     response = input("Why do you like programming? (press 'q' to quit)" + "\n")
