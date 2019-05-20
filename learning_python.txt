@@ -1,0 +1,4 @@
+I have learned about data types, variables amd collections.
+I have learned methods for looping.
+I have learned about conditional statements.
+I have learned how to take user input, and how to write functions.
