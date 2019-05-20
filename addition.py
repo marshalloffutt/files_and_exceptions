@@ -1,13 +1,28 @@
-# Prompt user for two numbers
-try:
-    number_one = int(input("Provide a number. \n"))
-    number_two = int(input("Provide a second number. \n"))
+# Provide user with break condition
+print("Let's do some addition. Press 'q' at any time to quit. \n")
 
-# Catch exception if they provide a non-number
-except ValueError:
-    print("You are dumb. I said to provide a number.")
+while True:
+    try:
+        # Get numbers to add from user input
+        number_one = input("Provide a number: \n")
 
-# Print the result of addition
-else:
-    result = number_one + number_two
-    print(str(number_one) + " + " + str(number_two) + " = " + str(result))
+        # Check for break condition
+        if number_one == 'q':
+            break
+
+        # Convert numbers to integers 
+        number_one = int(number_one)
+
+        number_two = input("Provide a second number: \n")
+        if number_two == 'q':
+            break
+        
+        number_two = int(number_two)
+
+    # Throw ValueError exception if they provide anything not a number
+    except ValueError:
+        print("You are dumb. I asked for a number.")
+
+    else:
+        result = number_one + number_two
+        print(str(number_one) + " + " + str(number_two) + " = " + str(result))
